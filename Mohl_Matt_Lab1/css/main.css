@@ -1,0 +1,53 @@
+			h1, h2, h3 {
+				background-color: #888;
+				color: #46d;
+			}
+			
+			.body_copy {
+				background-color: #888;
+				color: #fff;
+			}
+			
+			p:first-letter {
+				font-family: Papyrus;
+				font-size: 30px;
+			}
+			
+			p:first-line {
+				font-family: "Times New Roman";
+				color: #b22;
+			}
+			
+			ul, ol {
+				background-color: #46d;
+			}
+			
+			ol li {
+				color: #aaa;
+			}
+			
+			a {
+				color: #b37;
+			}
+			
+			a:hover {
+				color: #aaa;
+			}
+			
+			a:visited {
+				color: #ccc;
+			}
+			
+			body {
+				margin: 0 auto;
+				width: 960px;
+			}
+			
+			#footer {
+				background-color: #46d;
+				color: #fff;
+			}
+			
+			* {
+				font-family: "Helvetica Neue";
+			}
