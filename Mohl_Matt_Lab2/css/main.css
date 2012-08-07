@@ -1,12 +1,14 @@
 			body {
-				background-color: #111;
+				background-color: #111;		/*I chose a dark color for the background to go width
+											the space theme*/
 				margin: 0 auto;
 				width: 960px;
-				font: normal normal normal 14px Helvetica, Arial, sans-serif;
+/*				Normal Helvetica at 14pt or another san-serif font
+*/				font: normal normal normal 14px Helvetica, Arial, sans-serif;
 			}
 			
 			p {
-				color: #bca68c;
+				color: #bca68c;			/*This is a tan color to sort of match Saturn's colors*/
 				line-height: 18px;
 				word-spacing: 3px;
 				text-indent: 40px;
@@ -53,7 +55,7 @@
 			}
 			
 			#physical {
-				text-shadow: 3px 3px 2px #a3735c;
+				text-shadow: 3px 3px 2px #a3735c;		/*Text shadow to make it look aweful*/
 				color: rgba(238, 197, 108, 0.8);
 
 			}
@@ -69,10 +71,10 @@
 			
 			div h3 {
 				font-size: 18px;
-				font-family: Papyrus;
+				font-family: Papyrus;		/*Everybody loves all caps papyrus*/
 				font-style: italic;
 			}
 			
 			#titan {
-				vertical-align: super;
+				vertical-align: super;		/*Titan is super*/
 			}
