@@ -1,0 +1,84 @@
+	#main-content {
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	h1, h2, h3 {
+		font-family: 'Miniver', cursive;
+	}
+
+	a {
+/*		background-color: cyan;
+*/	}
+
+	#nav li {
+		background-color: yellow;
+		list-style-type: none;
+		display: inline;
+	}
+
+	#nav {
+		background-color: orange;
+		margin: 0;
+		padding: 0;
+		width: 25%;
+		float: right;
+	}
+
+	#nav li a {
+	}
+
+	#logo {
+		float: left;
+/*		background-color: red;
+*/		margin: 0;
+	}
+
+	#gallery {
+		width: 100%;
+		float: left;
+		clear: left;
+/*		background-color: red;
+*/		padding: 0;
+		margin: 0;
+	}
+
+	#gallery li {
+		float: left;
+		list-style-type: none;
+		padding-right: 6%;
+		margin: 0;
+	}
+
+	#seealso {
+/*		background-color: purple;
+*/		float: left;
+		clear: both;
+	}
+
+	#hercules {
+		width: 50%;
+		float: right;
+		padding: 0;
+		margin: 0;
+	}
+
+	#hercules p, #hercules h2, #hercules img {
+		text-align: justify;
+		padding-left: 20px;
+	}
+
+	#footer {
+		clear: both;
+	}
+
+	#main_column {
+		float: left;
+		clear: left;
+		width: 50%;
+	}
+
+	#main_column p {
+		text-align: justify;
+		padding-right: 20px;
+	}
