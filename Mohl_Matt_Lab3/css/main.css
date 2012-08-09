@@ -1,10 +1,22 @@
+	body {
+		background-color: #c39a2b;
+		margin: 0;
+		font-family: 'Miniver', cursive;
+	}
+
 	#main-content {
 		width: 960px;
 		margin: 0 auto;
+		background-color: rgba(255, 255, 255, 0.5);
+		padding: 0 20px;
 	}
 
 	h1, h2, h3 {
 		font-family: 'Miniver', cursive;
+	}
+
+	h1 {
+		font: normal normal normal 2em 'Miniver', cursive;
 	}
 
 	a {
@@ -12,26 +24,54 @@
 */	}
 
 	#nav li {
-		background-color: yellow;
-		list-style-type: none;
-		display: inline;
+/*		background-color: yellow;
+*/		list-style-type: none;
+		float: left;
+		padding-right: 20px;
 	}
 
 	#nav {
-		background-color: orange;
-		margin: 0;
+/*		background-color: orange;
+*/		margin: 0;
 		padding: 0;
-		width: 25%;
+		width: 33%;
 		float: right;
+		margin-top: 40px;
 	}
 
 	#nav li a {
+		color: #000;
+		text-decoration: none;
+		border-bottom: 1px solid #000;
+	}
+
+	#nav li a:hover {
+		color: rgba(0, 0, 0, 0.5);
+	}
+
+	#nav li a:active {
+		color: #fff;
 	}
 
 	#logo {
 		float: left;
 /*		background-color: red;
 */		margin: 0;
+		padding-top: 10px;
+		font-size: 60px;
+	}
+
+	#basic_info {
+/*		background-color: red;
+*/		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: 50px;
+	}
+
+	#basic_info p {
+		text-align: left;
+		font-style: italic;
+		line-height: 20px;
 	}
 
 	#gallery {
@@ -39,7 +79,7 @@
 		float: left;
 		clear: left;
 /*		background-color: red;
-*/		padding: 0;
+*/		padding-left: 20px;
 		margin: 0;
 	}
 
@@ -54,31 +94,42 @@
 /*		background-color: purple;
 */		float: left;
 		clear: both;
+		padding-left: 20px;
 	}
 
 	#hercules {
 		width: 50%;
 		float: right;
 		padding: 0;
+		padding-bottom: 312px;
 		margin: 0;
+/*		background-color: rgba(255, 255, 255, .2);
+*/		background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(195, 154, 43, 1));
 	}
 
 	#hercules p, #hercules h2, #hercules img {
 		text-align: justify;
 		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 	#footer {
 		clear: both;
+		padding-left: 15px;
+		background-color: rgba(195, 154, 43, 0.5);
 	}
 
 	#main_column {
 		float: left;
 		clear: left;
 		width: 50%;
+/*		background-color: rgba(255, 255, 255, .2);
+*/		background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(195, 154, 43, 1));
+
 	}
 
-	#main_column p {
+	#main_column p, #main_column h2{
 		text-align: justify;
 		padding-right: 20px;
+		padding-left: 20px;
 	}
