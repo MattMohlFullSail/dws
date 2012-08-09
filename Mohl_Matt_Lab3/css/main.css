@@ -110,7 +110,7 @@
 		padding-right: 20px;
 	}
 	
-	/* ================ Main column styling and positioning =========== */
+	/* =========== Main column styling and positioning =========== */
 	#main_column {
 		float: left;
 		clear: left;
@@ -134,7 +134,7 @@
 		padding-left: 20px;
 	}
 
-	/*  Footer positioning and styling  */
+	/* =========== Footer positioning and styling =========== */
 	#footer {
 		clear: both;
 		padding-left: 15px;
