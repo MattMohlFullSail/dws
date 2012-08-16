@@ -2,15 +2,19 @@
 
 	body {
 		background-color: #c39a2b;
-		margin: 0;
-		font-family: 'Miniver', cursive;
+		margin: 0 auto;
+		font: normal normal normal 100% 'Miniver', cursive;
+	}
+
+	#gradient {
+		background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(195, 154, 43, 1));
 	}
 
 	#main-content {
-		width: 960px;
+		width: 100%;
 		margin: 0 auto;
 		background-color: rgba(255, 255, 255, 0.5);
-		padding: 0 20px;
+		padding: 0 2.083333%;
 	}
 
 	h1, h2, h3 {
@@ -27,7 +31,7 @@
 /*		background-color: yellow;
 */		list-style-type: none;
 		float: left;
-		padding-right: 20px;
+		padding-right: 6.25%;
 	}
 
 	#nav {
@@ -36,7 +40,7 @@
 		padding: 0;
 		width: 33%;
 		float: right;
-		margin-top: 40px;
+		margin-top: 4.166667%;
 	}
 
 	#nav li a {
@@ -58,22 +62,22 @@
 		float: left;
 /*		background-color: red;
 */		margin: 0;
-		padding-top: 10px;
-		font-size: 60px;
+		padding-top: 2.083333%;
+		font-size: 3.75em;
 	}
 
 	/* =========== Info paragraphs styling and positioning =========== */
 	#basic_info {
 /*		background-color: red;
-*/		padding-left: 20px;
-		padding-right: 20px;
-		margin-top: 50px;
+*/		padding-left: 4.166667%;
+		padding-right: 4.166667%;
+		margin-top: 10.41667%;
 	}
 
 	#basic_info p {
 		text-align: left;
 		font-style: italic;
-		line-height: 20px;
+		line-height: 1.5;
 	}
 
 	/* =========== Gallery styling, positioning, and list item reset =========== */
@@ -82,7 +86,7 @@
 		float: left;
 		clear: left;
 /*		background-color: red;
-*/		padding-left: 20px;
+*/		padding-left: 4.166667%;
 		margin: 0;
 	}
 
@@ -98,32 +102,36 @@
 		width: 50%;
 		float: right;
 		padding: 0;
-		padding-bottom: 312px;
+		padding-bottom: 368px;
 		margin: 0;
 /*		background-color: rgba(255, 255, 255, .2);
-*/		background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(195, 154, 43, 1));
+		background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(195, 154, 43, 1)); */
+		}
+
+	#hercules p, #hercules h2 {
+		text-align: justify;
+		padding-left: 4.166667%;
+		padding-right: 4.166667%;
 	}
 
-	#hercules p, #hercules h2, #hercules img {
-		text-align: justify;
-		padding-left: 20px;
-		padding-right: 20px;
+	#hercules img {
+		padding-left: 6%;
 	}
 	
 	/* =========== Main column styling and positioning =========== */
-	#main_column {
+	#main-column {
 		float: left;
 		clear: left;
 		width: 50%;
 /*		background-color: rgba(255, 255, 255, .2);
-*/		background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(195, 154, 43, 1));
+		background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(195, 154, 43, 1));*/
 
 	}
 
-	#main_column p, #main_column h2{
+	#main-column p, #main-column h2{
 		text-align: justify;
-		padding-right: 20px;
-		padding-left: 20px;
+		padding-right: 4.166667%;
+		padding-left: 4.166667%;
 	}
 
 	/* =========== See Also section styling and positioning ============ */
@@ -131,22 +139,115 @@
 /*		background-color: purple;
 */		float: left;
 		clear: both;
-		padding-left: 20px;
+		padding-left: 4.166667%;
 	}
 
 	/* =========== Footer positioning and styling =========== */
 	#footer {
 		clear: both;
-		padding-left: 15px;
+		padding-left: 1.5625%;
 		background-color: rgba(195, 154, 43, 0.5);
 	}
 
 
 
-	/* =========== Media Queries =========== */
+	/* =========== Media Queries ============= */
 
-	@media screen and(min-width: 600) and(max-width: 960px) {
-		#main_content {
+	@media screen and (min-width: 960px) {
+		#main-content {
+			max-width: 960px;
+		}
+		/*body {
+			width: 80%;
+		}*/
+	}
+
+	@media screen and (min-width: 0px) and (max-width: 1000px) {
+
+		#main-content {
+			width: 100%;
+			padding: 0;
+		}
+
+		#hercules, #main-column {
+			background-image: none;
+		}
+
+		h1 {
+			padding-left: 4.166667%;
+		}
+
+		#footer {
+			background-color: #6e6e41;
+			color: #ffffff;
+		}
+
+		#basic_info {
+			background-color: rgba(0, 0, 0, .2);
+			padding: 5px 0;
+		}
+
+	}
+
+	@media screen and (max-width: 966px) {
+
+		#gallery li {
+			float: none;
+		}
+
+	}
+
+	@media screen (min-width: 895px) and (max-width: 965px) {
+
+		#nav {
+			width: 50%;
+		}
+
+	}
+
+	@media screen and (min-width: 0px) and (max-width: 895px) {
+
+		#nav {
+			width: 50%;
+		}
+
+		#main-column {
+			float: none;
+			clear: both;
+			width: 95.833334%;
+		}
+
+		#hercules {
+			float: none;
+			clear: both;
 			width: 100%;
 		}
+
+		#logo, #nav {
+			clear: none;
+		}
+
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,151 @@
+	body {
+		font-family: 'Electrolize', sans-serif;
+		color: #fff;
+		background-image: -moz-linear-gradient(#000 80%, #444);
+	}
+
+
+	/*Basic Styles*/
+
+	#wrapper {
+		margin: 0 auto;
+		width: 960px;
+	}
+
+	#header {
+		padding-bottom: 20px;
+		height: 100px;
+		background-color: rgba(255, 255, 255, .4);
+		background-image: -moz-linear-gradient(#555, #000);
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #34b7c9;
+
+	}
+
+	header h1 {
+		font-size: 28px;
+		width: 48%;
+/*		background-color: red;
+*/		float: left;
+		margin: 0;
+		padding: 15px 0 0 6px;
+		
+	}
+
+	section div img {
+		width: 50%;
+		float: left;
+		margin-right: 10px;
+	}
+
+
+	/*Navigation styles*/
+
+	nav li {
+		list-style-type: none;
+		float: left;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		background-color: blue;
+	}
+
+	nav {
+		float: right;
+		width: 400px;
+		margin-top: 6px;
+	}
+
+	nav ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	nav a {
+		padding: 20px 35px;
+		background-image: -moz-linear-gradient(#000, #555);
+		color: #34b7c9;
+	}
+
+	nav a:hover {
+		background-image: -moz-linear-gradient(#333, #bbb);
+	}
+
+	nav a:active {
+		background-image: -moz-linear-gradient(#555, #000);
+	}
+
+	a {
+		text-decoration: none;
+		color: #34b7c9;
+	}
+
+	a:visited {
+		color: #ddd;
+	}
+
+	#cta {
+		width: 64%;
+		float: left;
+/*		background-image: url("images/tron-keyboard-main_cutout-[Converted].jpg");*/
+		border-top: 1px solid rgba(255, 255, 255, .3);
+		border-right: 1px solid rgba(255, 255, 255, .3);
+		padding-right: 7px;
+		margin-top: 15px;
+	}
+
+	#cta p {
+		line-height: 23px;
+	}
+
+	.button {
+		float: right;
+		padding: 15px 25px;
+		background-image: -moz-linear-gradient(#85d7e2, #34b7c9);
+	}
+
+	#secondary {
+		float: right;
+		width: 30%;
+		font-size: .8em;
+		margin: 15px 10px 0px 10px;
+		padding-left: 8px;
+		border-top: 1px solid rgba(255, 255, 255, .3);
+		border-left: 1px solid rgba(255, 255, 255, .3);
+		background-image: -moz-linear-gradient(#333, #000);
+	}
+
+	#gallery {
+		width: 80%;
+		float: left;
+		padding-left: 10px;
+		border-left: 1px solid rgba(255, 255, 255, .3);
+		border-bottom: 1px solid rgba(255, 255, 255, .3);
+	}
+
+	#gallery ul {
+		margin: 0;
+		padding: 0;
+
+	}
+
+	#gallery ul li {
+		list-style-type: none;
+		float: left;
+		padding-right: 16px;
+	}
+
+	#specs {
+		width: 66%;
+		float: left;
+		padding: 0 10px;
+/*		border-top: 1px solid rgba(255, 255, 255, .3);
+*/		border-right: 1px solid rgba(255, 255, 255, .3);
+
+	}
+
+	footer {
+		clear: both;
+		background-color: rgba(255, 255, 255, .1);
+	}
