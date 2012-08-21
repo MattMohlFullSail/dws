@@ -1,0 +1,90 @@
+	
+	body {
+		font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+
+	label {
+		font-size: 1.1em;
+	}
+
+	h1 {
+		color: rgba(31, 165, 220, 1);
+	}
+
+	#container {
+		margin: 0 auto;
+		width: 300px;
+	}
+
+	#searchfor {
+		margin-bottom: 7px;
+	}
+
+	#wordslabel {
+		float: left;
+		width: 33%;
+		text-align: right;
+/*		background-color: cyan; */	
+	}
+
+	#keywords, #searchin, #words {
+		margin-left: 2%;
+	}
+
+	#keywordscontainer {
+		margin-bottom: 7px;		/* For some reason this won't work at all... */
+/*		color: red;		But this does... You can't explain that*/	}
+
+	#keywords {
+		float: left;
+	}
+
+	#keywordslabel {
+		float: left;
+		clear: left;
+		width: 33%;
+		text-align: right;
+/*		background-color: cyan; */	
+	}
+
+	#searchinwrap {
+		margin-bottom: 7px;
+	}
+
+	#searchinlabel {
+		width: 33%;
+		float: left;
+		text-align: right;
+	}
+
+	#littlebox {
+/*		background-color: red;
+*/		overflow: hidden;
+	}
+
+	fieldset {
+		background-color: rgb(109, 202, 101);
+	}
+
+
+
+	#submit {
+		width: 120px;
+		height: 35px;
+
+		background-image: -moz-linear-gradient(rgba(112, 188, 241, 1), rgba(31, 165, 220, 1));
+		background-image: -webkit-linear-gradient(rgba(112, 188, 241, 1), rgba(31, 165, 220, 1));;
+		border-radius: 5px;
+		border: 0px;
+		margin-left: 35%;
+		font-size: 1.3em;
+	}
+
+	#submit:active {
+		background-image: -moz-linear-gradient(rgba(31, 165, 220, 1), rgba(112, 188, 241, 1));
+		background-image: -webkit-linear-gradient(rgba(31, 165, 220, 1), rgba(112, 188, 241, 1));
+	}
+
+	#submit:hover {
+		border: 1px solid cyan;
+	}

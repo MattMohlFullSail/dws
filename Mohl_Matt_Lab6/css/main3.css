@@ -1,0 +1,128 @@
+
+	body {
+		background-color: #437ce5;
+	}
+
+	#container {
+		width: 350px;
+		margin: 0 auto;
+		font-family: Dosis, "Century Gothic", sans-serif;
+	}
+
+	#email, #password, #password_confirmation, #profile_link, #dob_month, #dob_day, #dob_year, select, label {
+		display: block;
+	}
+
+	#email, #password, #password_confirmation, #profile_link {
+		width: 200px;
+		height: 18px;
+	}
+
+	ul {
+		margin-left: 1%;
+		padding: 0;
+	}
+
+	ul li {
+		list-style-type: none;
+	}
+
+	label {
+		font-size: 1.2em;
+		font-weight: bold;
+		margin-bottom: 3px;
+/*		color: #f19f3e;
+*/	}
+
+	.login {
+		margin-bottom: 0;
+	}
+
+	h1 {
+		width: 45%;
+		float: left;
+		margin: 0;
+		padding-bottom: 5px;
+		color: #f19f3e;
+	}
+
+	.login {
+		width: 45%;
+		float: right;
+		text-align: right;
+		margin-right: 5px;
+	}
+
+	#form {
+		margin: 0;
+		padding: 0;
+	}
+
+	#bigset {
+		background-color: #6590de;
+		clear: both;
+		margin: 0;
+	}
+
+	.introduction {
+		margin: 0;
+		padding: 0;
+	}
+
+	#basicinfo {
+		margin: 15px 0 20px 1%;
+	}
+
+	.profileprefix {
+		width: 100px;
+		text-align: right;
+		padding-right: 2px;
+		font-size: .8em;
+		line-height: 1.1;
+	}
+
+	#profile_link {
+		float: left;
+	}
+
+	#littleset {
+		clear: left;
+		margin-left: 1%;
+	}
+
+	#littleset, #bigset {
+		border: 1px solid #eee;
+	}
+
+	.input {
+		margin-bottom: 10px;
+	}
+
+	.tos_prompt {
+		font-size: .9em;
+		color: #000;
+	}
+
+	#submit {
+		margin-left: 1%;
+		background-image: -moz-linear-gradient(#f19f3e, #f1813e);
+		width: 45%;
+		height: 35px;
+		float: right;
+		border: 0px;
+	}
+
+	#submit:hover {
+		border: 2px solid #f1b03e;
+	}
+
+	#submit:active {
+		background-image: -moz-linear-gradient(#f1813e, #f19f3e);
+	}
+
+	a {
+		color: #f2f1f3;
+		color: #f19f3e;		
+		text-decoration: none;
+		border-bottom: 1px solid #f2f1f3;
+	}

@@ -1,0 +1,58 @@
+
+	#container {
+		font-family: "Sofia Pro", Helvetica, "Century Gothic", sans-serif;
+		width: 250px;
+		margin: 0 auto;
+	}
+
+	fieldset {
+		background-color: #2a2a17;
+
+	}
+
+	input, textarea {
+		display: block;
+		width: 204px;
+	}
+
+	#name, #email {
+		height: 25px;
+		width: 200px;
+	}
+
+	#nameinput, #emailinput, #feedbackinput {
+		margin-bottom: 15px;
+		font-size: 1.3em;
+		line-height: 1.5;
+		color: #e8d935;
+	}
+
+	h1 {
+		color: #e8d935;
+		margin: 0;
+	}
+
+	#submit {
+		height: 40px;
+		width: 206px;
+		background-image: -moz-linear-gradient(#e8d935, #a1a039);
+		border-radius: 4px;
+		border: 0px;
+	}
+
+	#submit:active {
+		background-image: -moz-linear-gradient(#a1a039, #e8d935);
+	}
+
+	#submit:hover {
+		border: 2px solid #e2fa25;
+	}
+
+	#forminner {
+		margin: 0 auto;
+		width: 210px;
+	}
+
+	html {
+		background-color: #b2ac6b;
+	}
